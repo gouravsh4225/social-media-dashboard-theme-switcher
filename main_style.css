@@ -1,3 +1,6 @@
+:root {
+  --ff: "Inter", sans-serif;
+}
 /* set the css variable for light and dark theme */
 body.light-theme {
   --body-bg: hsla(0, 0%, 100%, 1);
@@ -31,10 +34,6 @@ body.dark-theme {
     hsl(146, 68%, 55%)
   );
   --top-bg-pattern: hsla(232, 19%, 15%, 0.2);
-}
-
-:root {
-  --ff: "Inter", sans-serif;
 }
 
 * {
