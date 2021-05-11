@@ -1,4 +1,38 @@
-@import "./css__utlis/__variable.css";
+/* @import "./css__utlis/__variable.css"; */
+/* set the css variable for light and dark theme */
+body.light-theme {
+  --body-bg: hsla(0, 0%, 100%, 1);
+  --heading-text: rgba(0, 0, 0, 1);
+  --heading-text-overview: hsla(230, 17%, 14%, 0.7);
+  --card-bg: hsl(227, 47%, 96%);
+  --card-text-number: rgba(0, 0, 0, 1);
+  --theme-toggle-heading: hsla(230, 17%, 14%, 0.7);
+  --card-sub-text-heading: hsla(228, 12%, 44%, 1);
+  --card-hover-bg: hsla(228, 12%, 44%, 0.2);
+  --card-account-heading: hsla(228, 12%, 44%, 1);
+  --social-media-sub-heading-text: hsl(228, 34%, 66%);
+  --theme-toggle-bg: hsl(230, 22%, 74%);
+  --top-bg-pattern: hsla(225, 100%, 98%, 1);
+}
+
+body.dark-theme {
+  --body-bg: hsla(230, 17%, 14%, 0.9);
+  --heading-text: rgba(255, 255, 255, 1);
+  --heading-text-overview: rgba(255, 255, 255, 1);
+  --card-bg: hsl(228, 28%, 20%);
+  --card-text-number: rgba(255, 255, 255, 1);
+  --theme-toggle-heading: rgba(255, 255, 255, 1);
+  --card-sub-text-heading: hsla(228, 34%, 66%, 1);
+  --card-hover-bg: hsla(228, 34%, 66%, 0.2);
+  --card-account-heading: hsla(228, 34%, 66%, 1);
+  --social-media-sub-heading-text: hsl(228, 12%, 44%);
+  --theme-toggle-bg: linear-gradient(
+    to right,
+    hsl(210, 78%, 56%),
+    hsl(146, 68%, 55%)
+  );
+  --top-bg-pattern: hsla(232, 19%, 15%, 0.2);
+}
 
 :root {
   --ff: "Inter", sans-serif;
